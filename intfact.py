@@ -15,7 +15,7 @@ def factorize(rnum):
         nk = int(rnum[count % l])
         line_number = line_number + nk
         _line_ = lines[line_number].lstrip().rstrip()
-        input([pi[line_number-1:line_number+2],_line_,e[line_number-1:line_number+2]])
+        input([pi[line_number:line_number+3],_line_,e[line_number:line_number+3]])
         count = count + 1
     return
 
